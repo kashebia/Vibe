@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="VIBE"
+    android:textColor="#ffffff"
+    android:textSize="60sp"
+    android:textStyle="bold"
+    android:layout_marginTop="30dp"></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="#ffffff"
+        android:id="@+id/email"
+        android:background="@drawable/gradient"
+        android:hint=" Email"
+        android:textSize="30sp"
+        android:layout_marginTop="60dp"
+        android:paddingLeft="20dp"
+        android:textColorHint="#7E7E46"
+        android:drawableLeft="@drawable/ic_action_name"
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient"
+        android:id="@+id/password"
+        android:hint=" Password"
+        android:textColorHint="#7E7E46"
+
+        android:textSize="30sp"
+        android:inputType="textPassword"
+        android:layout_marginTop="40dp"
+        android:textColor="#ffffff"
+        android:paddingLeft="20dp"
+        android:drawableLeft="@drawable/ic_action_lock"
+        ></EditText>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_bg2"
+        android:layout_marginTop="40dp"
+        android:text="Login"
+        android:onClick="Login"
+        android:textColor="#ffffff"
+        android:textSize="30sp"></Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:textColor="#ffffcc"
+        android:textSize="20sp"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        ></TextView>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/gradient"
+        android:text="Register"
+        android:textColor="#ffffcc"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:onClick="Register"
+        android:layout_marginTop="18dp"></Button>
+
+
+
+</LinearLayout>

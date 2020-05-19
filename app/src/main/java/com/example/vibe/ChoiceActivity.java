@@ -15,13 +15,13 @@ public class ChoiceActivity extends AppCompatActivity {
     }
     public void Yes(View view)
     {
-        Intent i=new Intent(ChoiceActivity.this,MainActivity.class);
+        Intent i=new Intent(ChoiceActivity.this,LoginActivity.class);
         startActivity(i);
 
     }
     public void No(View view)
     {
-        Intent i=new Intent(ChoiceActivity.this,MainActivity.class);
+        Intent i=new Intent(ChoiceActivity.this,LoginActivity.class);
         startActivity(i);
 
     }
